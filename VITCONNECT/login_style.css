@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+
+    background-image: url(images/wallpaper1.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+.vit_logo{
+    align-self: auto;
+    size: 1px 1px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-box {
+    border-radius: 20px;
+    vertical-align: baseline;
+    width: 360px;
+    height: 570px;
+    margin: auto;
+    background-color: white;
+    border-radius: 2px;
+    opacity: 60%;
+
+}
+  
+.login-box {
+    vertical-align: -webkit-baseline-middle;
+    width: 360px;
+    height: 300px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+    opacity: 70%;
+}
+  
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+  
+h4 {
+    text-align: center;
+}
+  
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+  
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+  
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para-2 a {
+    color: #49c1a2;
+}
+  

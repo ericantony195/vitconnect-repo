@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-VITConnect</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="bx bxs-graduation"></i>
+                <span>VITConnect</span>
+            </div>
+            <i class="bx bx-menu" id="button_menu"></i>
+        </div>
+        <div class="user">
+            <img src="images\ERIC.jpeg" alt="me" class="user-img">
+            <div>
+                <p class="bold">Eric Lazar Antony</p>
+                <p>Co-Creator</p>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a href="" title="Search">
+                    <i class="bx bx-search"></i>
+                    <span class="nav-item">SEARCH</span>
+                </a>
+                <span class="tooltip">SEARCH</span>
+            </li>
+            <li>
+                <a href="" title="Explore">
+                    <i class="bx bxs-cube"></i>
+                    <span class="nav-item">EXPLORE</span>
+                </a>
+                <span class="tooltip">EXPLORE</span>
+            </li>
+            <li>
+                <a href="" title="Chats">
+                    <i class='bx bx-message-dots' ></i>
+                    <span class="nav-item">CHATS</span>
+                </a>
+                <span class="tooltip">CHATS</span>
+            </li>
+            <li>
+                <a href="" title="Education">
+                    <i class='bx bx-book-open'></i>
+                    <span class="nav-item">EDUCATION</span>
+                </a>
+                <span class="tooltip">EDUCATION</span>
+            </li>
+            <li>
+                <a href="" title="settings">
+                    <i class='bx bx-cog' ></i>
+                    <span class="nav-item">SETTINGS</span>
+                </a>
+                <span class="tooltip">SETTINGS</span>
+            </li>
+            <li>
+                <a href="about_us.html" title="About Us">
+                    <i class='bx bx-ghost'></i>
+                    <span class="nav-item">ABOUT_US</span>
+                </a>
+                <span class="tooltip">ABOUT_US</span>
+            </li>
+            <li>
+                <a href="new_login.html" title="log_out">
+                    <i class='bx bx-log-out'></i>
+                    <span class="nav-item   ">LOG_OUT</span>
+                </a>
+                <span class="tooltip">LOG_OUT</span>
+            </li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="container">
+            <img class="logonew" src="images/VITconnectlogo.png" alt="">
+        </div>
+    </div>
+
+</body>
+
+<script>
+    let btn=document.querySelector('#button_menu')
+    let sidebar=document.querySelector('.sidebar ')
+    btn.onclick=function(){
+        sidebar.classList.toggle('active');
+    }
+</script>
+</html>
